@@ -7,8 +7,8 @@ spring:
             name: springCloudApp
             profile: ${config.profile:dev}
     application: 
-       name: springCloudApp
+       name: spring-cloud-app
 eureka: 
     client: 
         serviceUrl:
-            defaultZone: http://localhost:9999/eureka/
+            defaultZone: http://127.0.0.1:9999/eureka/
