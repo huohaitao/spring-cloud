@@ -5,13 +5,5 @@
     <artifactId>spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>service-config</artifactId>
-  <packaging>jar</packaging>
-  
-  <dependencies>
-     <dependency>
-         <groupId>org.springframework.cloud</groupId>
-         <artifactId>spring-cloud-config-server</artifactId>
-     </dependency>
-  </dependencies>
+  <artifactId>config</artifactId>
 </project>

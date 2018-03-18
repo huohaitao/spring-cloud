@@ -7,7 +7,7 @@ spring:
             name: springCloudApp
             profile: ${config.profile:dev}
     application: 
-       name: spring-cloud-app
+       name: eureka-provider
 eureka: 
     client: 
         serviceUrl:

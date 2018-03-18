@@ -1,0 +1,9 @@
+server: 
+    port: 8081
+spring: 
+    application: 
+        name: eureka-consumer
+eureka: 
+    client: 
+        serviceUrl:
+            defaultZone: http://127.0.0.1:9999/eureka/

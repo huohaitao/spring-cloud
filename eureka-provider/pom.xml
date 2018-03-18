@@ -5,7 +5,7 @@
     <artifactId>spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>app</artifactId>
+  <artifactId>eureka-provider</artifactId>
   
   <properties>  
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  

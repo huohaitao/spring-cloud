@@ -5,7 +5,9 @@ spring:
         config: 
             server: 
                 git: 
-                    uri: https://github.com/huohaitao/spring-cloud.git
-                    searchPaths: repo
+                    uri: https://github.com/fengzp/config/
+                    searchPaths: demo*
+                    username: huohaitao
+                    password: hht521445
     application:
-        name: spingCloudConfServer  
+        name: spingCloudConfServer
