@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-consumer
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888/
+      profile: default
+      label: master
+
+server:
+  port: 8081
