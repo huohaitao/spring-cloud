@@ -96,7 +96,7 @@ public class Sender {
 	
 	public static void main(String[] args) {
 		Sender sender = new Sender();
-//		sender.prepareTosend();
+//		sender.prepareTosend(); 
 		sender.prepareTopicTosend(true);
 	}
 }

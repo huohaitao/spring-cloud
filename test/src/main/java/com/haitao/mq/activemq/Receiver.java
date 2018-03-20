@@ -118,7 +118,7 @@ public class Receiver {
 				new Receiver().prepareToReceivePersistTopic("hht-sr0");
 			}
 		}.start();
-//		new Thread(){
+//		new Thread(){ 
 //			@Override
 //			public void run() {
 //				new Receiver().prepareToReceiveTopic();
