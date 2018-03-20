@@ -119,7 +119,6 @@ public class Receiver {
 			}
 		}.start();
 //		new Thread(){ 
-//			@Override
 //			public void run() {
 //				new Receiver().prepareToReceiveTopic();
 //			}
