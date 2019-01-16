@@ -8,6 +8,6 @@ spring:
            server: 
                git: 
                    uri: https://github.com/huohaitao/spring-cloud.git
-                   searchPaths: config/demo
+                   searchPaths: config/root
                    #username: huohaitao
                    #password: hht521445
