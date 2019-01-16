@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author huoht
  *
  */
-@FeignClient("eureka-provider")
+@FeignClient("service-provider")
 public interface ConsumerClient {
 	
 	@RequestMapping("hello")

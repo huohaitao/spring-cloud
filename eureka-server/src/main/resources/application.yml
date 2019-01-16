@@ -6,6 +6,9 @@ spring:
 eureka: 
     instance: 
         hostname: 127.0.0.1
+    server:
+       enableSelfPreservation: true
+       renewalPercentThreshold: 0.85
     client: 
         registerWithEureka: false
         fetchRegistry: false
