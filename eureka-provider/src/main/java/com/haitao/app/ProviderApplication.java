@@ -12,9 +12,9 @@ import org.springframework.context.annotation.ComponentScan;
  * @author huoht
  *
  */
+@EnableDiscoveryClient
 @SpringBootApplication
 @ComponentScan({"com.haitao"})
-@EnableDiscoveryClient
 public class ProviderApplication {
 
 	public static void main(String[] args) {
