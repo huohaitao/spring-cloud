@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.haitao.consumer.client.ConsumerClient;
+import com.haitao.consumer.service.TestService;
 
 /**
  * @author huoht
@@ -17,10 +17,10 @@ import com.haitao.consumer.client.ConsumerClient;
 public class IndexController {
 
 	@Autowired
-	private ConsumerClient consumerClient;
+	private TestService service;
 	
 	@RequestMapping("/hello")
 	public String helloEureka(String name){
-		return this.consumerClient.hello(name);
+		return this.service.hello(name);
 	}
 }

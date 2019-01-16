@@ -1,13 +1,13 @@
 server: 
     port: 8080
 spring: 
-    cloud:
-        config: 
-            uri: http://127.0.0.1:8888
-            name: springCloudApp
-            profile: ${config.profile:dev}
-    application: 
+   application: 
        name: eureka-provider
+   cloud:
+       config: 
+           uri: http://127.0.0.1:8888
+           name: springCloudApp
+           profile: ${config.profile:dev}
 eureka: 
     client: 
         serviceUrl:
