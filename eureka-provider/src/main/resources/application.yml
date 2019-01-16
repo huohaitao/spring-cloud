@@ -1,5 +1,3 @@
-server: 
-    port: 8080
 spring: 
    application: 
        name: eureka-provider
@@ -7,8 +5,4 @@ spring:
        config: 
            uri: http://127.0.0.1:8888
            name: springCloudApp
-           profile: ${config.profile:dev}
-eureka: 
-    client: 
-        serviceUrl:
-            defaultZone: http://127.0.0.1:9999/eureka/
+           profile: default

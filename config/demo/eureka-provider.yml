@@ -1,0 +1,10 @@
+info:
+  profile: default
+
+server: 
+    port: 8080
+
+eureka: 
+    client: 
+        serviceUrl:
+            defaultZone: http://127.0.0.1:9999/eureka/

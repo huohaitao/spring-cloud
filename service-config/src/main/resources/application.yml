@@ -1,13 +1,13 @@
 server: 
     port: 8888
 spring: 
-    cloud: 
-        config: 
-            server: 
-                git: 
-                    uri: https://github.com/huohaitao/spring-cloud.git
-                    searchPaths: config/demo
-                    #username: huohaitao
-                    #password: hht521445
-    application:
+   application:
         name: spingCloudConfServer
+   cloud: 
+       config: 
+           server: 
+               git: 
+                   uri: https://github.com/huohaitao/spring-cloud.git
+                   searchPaths: config/demo
+                   #username: huohaitao
+                   #password: hht521445
