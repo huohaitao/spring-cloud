@@ -9,6 +9,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  */
 
 /**
+ * 配置中心， 当有应用需要从配置中心读取配置信息时应首先启动此程序
+ * 
  * @author huoht
  *
  */
