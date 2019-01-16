@@ -1,5 +1,3 @@
-server: 
-    port: 8081
 ribbon:
    #请求连接的超时时间
    ConnectTimeout: 3000
