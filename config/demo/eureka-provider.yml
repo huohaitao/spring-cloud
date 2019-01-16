@@ -1,6 +1,7 @@
 info:
-  profile: default
-
+   profile: default
+   label: master
+   
 server: 
     port: 8080
 
