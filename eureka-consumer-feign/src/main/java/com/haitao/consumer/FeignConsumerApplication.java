@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 
  * @SpringCloudApplication = @SpringBootApplication + @EnableDiscoveryClient + @EnableCircuitBreaker
- * 使用最基础的方式调用eureka服务
+ * 使用feign client方式调用eureka服务
  * @author huoht
  *
  */
