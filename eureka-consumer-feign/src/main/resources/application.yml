@@ -1,7 +1,10 @@
 spring: 
-   application: 
-      name: service-consumer-feign
    cloud:
        config: 
            uri: http://127.0.0.1:8888
            profile: default
+   sleuth: 
+      sampler: 
+         percentage: 1
+   zipkin: 
+      base-url: http://127.0.0.1:9411

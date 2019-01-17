@@ -5,7 +5,7 @@
     <artifactId>spring-cloud</artifactId>
     <version>0.1</version>
   </parent>
-  <artifactId>eureka-consumer-feign</artifactId>
+  <artifactId>service-user</artifactId>
   
   <dependencies>
   	<dependency>
@@ -26,10 +26,6 @@
     </dependency>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-ribbon</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-feign</artifactId>
     </dependency>
     <dependency>
@@ -43,10 +39,6 @@
 	<dependency>
 	  <groupId>org.springframework.cloud</groupId>
 	  <artifactId>spring-cloud-sleuth-zipkin</artifactId>
-	</dependency>
-	<dependency>
-	   <groupId>org.springframework.cloud</groupId>
-	   <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
 	</dependency>
 	<dependency>
 	  <groupId>net.logstash.logback</groupId>

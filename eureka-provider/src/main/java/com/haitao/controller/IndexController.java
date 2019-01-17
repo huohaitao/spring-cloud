@@ -1,10 +1,13 @@
 /**
  * 
  */
-package com.haitao.app.controller;
+package com.haitao.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.haitao.client.UserClient;
 
 /**
  * @author huoht
@@ -13,9 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 	
+	@Autowired
+	private UserClient userClient;
 	@RequestMapping("/hello")
 	public String hello(String name,String msg){
-		System.out.println(name+" say "+msg+" to me ！");
-		return "Hello "+name;
+		String user = userClient.get(name);
+		System.out.println(user+" say "+msg+" to me ！");
+		return "Hello "+user;
 	}
 }
